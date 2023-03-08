@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="377142d413b349f8a7c7d67b7ffbc524" Name="Diagram1">
+        <EntityTypeShape EntityType="speedrunModel.AFSInfo" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.bankCard" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.bonusCard" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.Colonka" Width="1.5" PointX="7.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.fuel_data1" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.fuel_data2" Width="1.5" PointX="0.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.fuel_data3" Width="1.5" PointX="0.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.fuel_data4" Width="1.5" PointX="0.75" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.Fuel_Reserve" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.numberInfo" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.transaction" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="speedrunModel.UserInfo" Width="1.5" PointX="5.25" PointY="9.5" IsExpanded="true" />
+        <AssociationConnector Association="speedrunModel.FK_AFSInfo_Fuel_Reserve" ManuallyRouted="false" />
+        <AssociationConnector Association="speedrunModel.FK_transaction_AFSInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="speedrunModel.FK_UserInfo_bankCard" ManuallyRouted="false" />
+        <AssociationConnector Association="speedrunModel.FK_UserInfo_bonusCard1" ManuallyRouted="false" />
+        <AssociationConnector Association="speedrunModel.FK_Fuel_Reserve_fuel_data1" ManuallyRouted="false" />
+        <AssociationConnector Association="speedrunModel.FK_Fuel_Reserve_fuel_data2" ManuallyRouted="false" />
+        <AssociationConnector Association="speedrunModel.FK_Fuel_Reserve_fuel_data3" ManuallyRouted="false" />
+        <AssociationConnector Association="speedrunModel.FK_Fuel_Reserve_fuel_data4" ManuallyRouted="false" />
+        <AssociationConnector Association="speedrunModel.FK_UserInfo_numberInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="speedrunModel.FK_transaction_UserInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="speedrunModel.AFS_Colonka" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

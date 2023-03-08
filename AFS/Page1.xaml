@@ -1,0 +1,37 @@
+﻿<Page x:Class="AFS.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:AFS"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+
+    <Grid>
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center" Height="370" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}">
+            <TextBlock Text="АЗС"
+                   VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20" Margin="10,5,10,0"/>
+            <TextBlock Text="Адрес АЗС" HorizontalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="Inpt_Adrs" Margin="10,0,10,0" Width="180" Background="{x:Null}" TextAlignment="Center" TextChanged="Inpt_Adrs_TextChanged"/>
+            <TextBlock Text="Цена 92" HorizontalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="Inpt92" Margin="10,0,10,0" Background="{x:Null}" TextAlignment="Center"/>
+            <TextBlock Text="Остаток 92" HorizontalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="InptAmount92" Margin="10,0,10,0" Background="{x:Null}" TextAlignment="Center"/>
+            <TextBlock Text="Цена 95" HorizontalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="Inpt95" Margin="10,0,10,0" Background="{x:Null}" TextAlignment="Center"/>
+            <TextBlock Text="Остаток 95" HorizontalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="InptAmount95" Margin="10,0,10,0" Background="{x:Null}" TextAlignment="Center"/>
+            <TextBlock Text="Цена 98" HorizontalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="Inpt98" Margin="10,0,10,0" Background="{x:Null}" TextAlignment="Center"/>
+            <TextBlock Text="Остаток 98" HorizontalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="InptAmount98" Margin="10,0,10,0" Background="{x:Null}" TextAlignment="Center"/>
+            <TextBlock Text="Цена ДТ" HorizontalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="InptDF" Margin="10,0,10,0" Background="{x:Null}" TextAlignment="Center"/>
+            <TextBlock Text="Остаток ДТ" HorizontalAlignment="Center" TextAlignment="Center"/>
+            <TextBox x:Name="InptAmountDF" Margin="10,0,10,0" Background="{x:Null}" TextAlignment="Center"/>
+            <Button x:Name="Btn_LoadID" Content="Загрузить данные" Margin="10,5,10,0"/>
+        </StackPanel>
+    </Grid>
+</Page>
